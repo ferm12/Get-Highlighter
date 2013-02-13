@@ -1,0 +1,90 @@
+/*********** TIPSY TOOLTIP 2 ****************/
+
+.default-tipsy { font-size: 11px; position: absolute; padding: 5px; z-index: 2147483650; }
+.default-tipsy-inner { background-color: #f8f086; color: #000; max-width: 200px; padding: 5px 8px 4px 8px; text-align: justify; border:1px solid #ffa200; }
+
+/* Rounded corners */
+.default-tipsy-inner { border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; font-size:11px; }
+
+/* Uncomment for shadow */
+/*.default-tipsy-inner { box-shadow: 0 0 5px #000000; -webkit-box-shadow: 0 0 5px #000000; -moz-box-shadow: 0 0 5px #000000; }*/
+
+.default-tipsy-arrow { position: absolute; width: 0; height: 0; border: 5px solid transparent; }
+
+/* Rules to colour arrows */
+.default-tipsy-arrow-n { border-bottom-color: #ffa200; }
+.default-tipsy-arrow-s { border-top-color: #ffa200; }
+.default-tipsy-arrow-e { border-left-color: #ffa200; }
+.default-tipsy-arrow-w { border-right-color: #ffa200; }
+
+.default-tipsy-n .default-tipsy-arrow, .default-tipsy-nw .default-tipsy-arrow, .default-tipsy-ne .default-tipsy-arrow { top: 0; border-top: none; }
+.default-tipsy-s .default-tipsy-arrow, .default-tipsy-sw .default-tipsy-arrow, .default-tipsy-se .default-tipsy-arrow { bottom: 0; border-bottom: none; }
+.default-tipsy-n .default-tipsy-arrow, .default-tipsy-s .default-tipsy-arrow { left: 50%; margin-left: -5px; }
+.default-tipsy-nw .default-tipsy-arrow, .default-tipsy-sw .default-tipsy-arrow { left: 10px; }
+.default-tipsy-ne .default-tipsy-arrow, .default-tipsy-se .default-tipsy-arrow { right: 10px; }
+.default-tipsy-e .default-tipsy-arrow, .default-tipsy-w .default-tipsy-arrow { top: 50%; margin-top: -5px; }
+.default-tipsy-e .default-tipsy-arrow { right: 0; border-right: none; }
+.default-tipsy-w .default-tipsy-arrow { left: 0; border-left: none; }
+
+
+
+
+
+
+.black-tipsy { font-size: 11px; position: absolute; padding: 5px; z-index: 2147483650; }
+.black-tipsy-inner { background-color: #000000; color: #FFF; max-width: 200px; padding: 5px 8px 4px 8px; text-align: justify; }
+
+/* Rounded corners */
+.black-tipsy-inner { border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; font-size:11px; }
+
+/* Uncomment for shadow */
+/*.default-tipsy-inner { box-shadow: 0 0 5px #000000; -webkit-box-shadow: 0 0 5px #000000; -moz-box-shadow: 0 0 5px #000000; }*/
+
+.black-tipsy-arrow { position: absolute; width: 0; height: 0; border: 5px solid transparent; }
+
+/* Rules to colour arrows */
+.black-tipsy-arrow-n { border-bottom-color: #000000; }
+.black-tipsy-arrow-s { border-top-color: #000000; }
+.black-tipsy-arrow-e { border-left-color: #000000; }
+.black-tipsy-arrow-w { border-right-color: #000000; }
+
+.black-tipsy-n .black-tipsy-arrow, .black-tipsy-nw .black-tipsy-arrow, .black-tipsy-ne .black-tipsy-arrow { top: 0; border-top: none; }
+.black-tipsy-s .black-tipsy-arrow, .black-tipsy-sw .black-tipsy-arrow, .black-tipsy-se .black-tipsy-arrow { bottom: 0; border-bottom: none; }
+.black-tipsy-n .black-tipsy-arrow, .black-tipsy-s .black-tipsy-arrow { left: 50%; margin-left: -5px; }
+.black-tipsy-nw .black-tipsy-arrow, .black-tipsy-sw .black-tipsy-arrow { left: 10px; }
+.black-tipsy-ne .black-tipsy-arrow, .black-tipsy-se .black-tipsy-arrow { right: 10px; }
+.black-tipsy-e .black-tipsy-arrow, .black-tipsy-w .black-tipsy-arrow { top: 50%; margin-top: -5px; }
+.black-tipsy-e .black-tipsy-arrow { right: 0; border-right: none; }
+.black-tipsy-w .black-tipsy-arrow { left: 0; border-left: none; }
+
+
+
+
+
+
+.tipsybig-tipsy { font-size: 11px; position: absolute; padding: 5px; z-index: 2147483650; }
+.tipsybig-tipsy-inner { background-color: #f8f086; color: #000; max-width: 300px; padding: 5px 8px 4px 8px; text-align: center; border:1px solid #ffa200; }
+
+/* Rounded corners */
+.tipsybig-tipsy-inner { border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; font-size:11px; }
+
+/* Uncomment for shadow */
+/*.default-tipsy-inner { box-shadow: 0 0 5px #000000; -webkit-box-shadow: 0 0 5px #000000; -moz-box-shadow: 0 0 5px #000000; }*/
+
+.tipsybig-tipsy-arrow { position: absolute; width: 0; height: 0; border: 5px solid transparent; }
+
+/* Rules to colour arrows */
+.tipsybig-tipsy-arrow-n { border-bottom-color: #ffa200; }
+.tipsybig-tipsy-arrow-s { border-top-color: #ffa200; }
+.tipsybig-tipsy-arrow-e { border-left-color: #ffa200; }
+.tipsybig-tipsy-arrow-w { border-right-color: #ffa200; }
+
+.tipsybig-tipsy-n .tipsybig-tipsy-arrow, .tipsybig-tipsy-nw .tipsybig-tipsy-arrow, .tipsybig-tipsy-ne .tipsybig-tipsy-arrow { top: 0; border-top: none; }
+.tipsybig-tipsy-s .tipsybig-tipsy-arrow, .tipsybig-tipsy-sw .tipsybig-tipsy-arrow, .tipsybig-tipsy-se .tipsybig-tipsy-arrow { bottom: 0; border-bottom: none; }
+.tipsybig-tipsy-n .tipsybig-tipsy-arrow, .tipsybig-tipsy-s .tipsybig-tipsy-arrow { left: 50%; margin-left: -5px; }
+.tipsybig-tipsy-nw .tipsybig-tipsy-arrow, .tipsybig-tipsy-sw .tipsybig-tipsy-arrow { left: 10px; }
+.tipsybig-tipsy-ne .tipsybig-tipsy-arrow, .tipsybig-tipsy-se .tipsybig-tipsy-arrow { right: 10px; }
+.tipsybig-tipsy-e .tipsybig-tipsy-arrow, .tipsybig-tipsy-w .tipsybig-tipsy-arrow { top: 50%; margin-top: -5px; }
+.tipsybig-tipsy-e .tipsybig-tipsy-arrow { right: 0; border-right: none; }
+.tipsybig-tipsy-w .tipsybig-tipsy-arrow { left: 0; border-left: none; }
+

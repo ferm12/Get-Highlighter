@@ -1,0 +1,384 @@
+#page-template{
+   width:960px;
+   float:left;
+   margin:0px;
+   padding:10px;
+}
+
+#page-template .left-nav{
+   width:205px;
+   float:left;
+   margin:0px;
+   padding:0px;
+}
+
+#page-template .left-nav ul{
+   width:205px;
+   float:left;
+   margin:50px 0px 0px 0px;
+   padding:0px;
+}
+
+#page-template .left-nav ul li{
+   width:205px;
+   float:left;
+   margin:0px;
+   padding:0px;
+   list-style-type:none;
+}
+
+
+#page-template .left-nav ul li a{
+   width:175px;
+   height:23px;
+   float:left;
+   margin:0px 0px 5px 0px;
+   padding:5px 20px 10px 10px;
+   font-size:14px;
+   font-weight:normal;
+   text-align:right;
+   color:#333333;
+   text-decoration:none;
+}
+
+
+#page-template .left-nav ul li a:hover{
+   background:url(../images/tabarrows.png) no-repeat right -43px;
+}
+
+
+#page-template .left-nav ul li.sel a{
+   background:url(../images/tabarrows.png) no-repeat 0px 0px;
+   color:#FFFFFF;
+}
+
+
+
+
+#page-template .right-container{
+   width:730px;
+   float:right;
+   margin:0px;
+   padding:0px;
+   line-height:1.8em;
+}
+
+
+#page-template .right-container-row{
+   width:730px;
+   float:right;
+   margin:0px 0px 0px 0px;
+   padding:0px;
+   line-height:2.5em;
+}
+.bg-right-container{
+	background-color: #f6f6f6;
+}
+
+/*code not needed
+#page-template .right-container ul{
+   width:100%;
+   float:left;
+   margin:0px;
+   padding:0px 0px 0px 20px;
+}
+
+#page-template .right-container ul li{
+   width:100%;
+   float:left;
+   margin:0px 0px 10px 0px;
+   padding:0px;
+   font-size:13px;
+   text-align:justify;
+   list-style-type:square;
+}
+*/
+
+#page-template .right-container hr{
+   border:none;
+   border-bottom:1px dotted #cccccc;
+   margin:15px 0px 15px 0px;
+}
+
+
+#page-template .right-container h2.page-name{
+   background:url(../images/breadcrumbbg.png) no-repeat 0px 0px;
+   height:21px;
+   width:100%;
+   padding:6px 7px 7px 7px;
+   margin:0px 0px 20px 0px;
+   font-size:16px;
+   color:#25a9dc;
+   font-weight:normal;
+   float:left;
+}
+
+
+#page-template .right-container h3{
+   font-size:16px;
+   font-weight:normal;
+   color:#333333;
+   margin:0px 0px 10px 0px;
+   padding:0px;
+}
+
+
+#page-template .right-container p{
+   text-align:justify;
+   font-size:13px;
+   font-weight:normal;
+   color:#666666;
+   padding:10px;
+}
+
+/*moved to biz-solution-style.css by Fermin START
+#page-template .benefits-tiles-container{
+   width:730px;
+   float:left;
+   margin:0px;
+   padding:0px;
+}
+
+
+#page-template .benefits-tiles-container ul{
+   width:730px;
+   float:left;
+   margin:0px 0px 15px 0px;
+   padding:0px;
+}
+
+
+#page-template .benefits-tiles-container ul li{
+   background:#f6f6f6;
+   width:160px;
+   height:170px;
+   float:left;
+   margin:0px 10px 0px 0px;
+   padding:10px 5px 10px 5px;
+   -moz-border-radius:10px;
+   -webkit-border-radius:10px;
+   list-style-type:none;
+   font-size:15px;
+   font-weight:normal;
+   text-align:center;
+   line-height:1.6em;
+}
+
+This code is already in biz-solution-style.css line:95
+#page-template .benefits-tiles-container ul li .biz-benefits-icons{
+   background:url(../images/sprite-features-icons.2.png) no-repeat;
+   background-position:0px 0px;
+   height:80px;
+   width:85px;
+   margin:10px;
+   padding:0px;
+   text-indent:-9999px;
+   display:inline-block;
+}
+*/
+/*
+#page-template .benefits-tiles-container ul li .biz-benefits-clp{
+   background-position:0px 0px;
+}
+#page-template .benefits-tiles-container ul li .biz-benefits-sv{
+   background-position:-85px 0px;
+}
+#page-template .benefits-tiles-container ul li .biz-benefits-col{
+   background-position: -85px -480px;
+}
+#page-template .benefits-tiles-container ul li .biz-benefits-org{
+   background-position:-170px -480px;
+}
+#page-template .benefits-tiles-container ul li .biz-benefits-tw{
+   background-position: 0px -80px;
+}
+#page-template .benefits-tiles-container ul li .biz-benefits-fb{
+   background-position: -85px -80px;
+}
+#page-template .benefits-tiles-container ul li .biz-benefits-eml{
+   background-position: -170px -80px;
+
+}
+#page-template .benefits-tiles-container ul li .biz-benefits-shw{
+   background-position: -85px -400px;
+
+}
+#page-template .benefits-tiles-container ul li .biz-benefits-fol{
+   background-position: 0px -160px;
+
+}
+#page-template .benefits-tiles-container ul li .biz-benefits-int{
+   background-position: -85px -160px;
+
+}
+#page-template .benefits-tiles-container ul li .biz-benefits-fcol{
+   background-position: -85px -560px;
+}
+#page-template .benefits-tiles-container ul li .biz-benefits-get{
+   background-position: -255px -478px ;
+}
+*/
+/*****moved to biz-solution-style.css by Fermin END******/
+
+#peoples-container{
+   width:730px;
+   float:left;
+   margin:0px;
+   padding:0px;
+}
+
+#peoples-container .peoples-row{
+   width:730px;
+   float:left;
+   margin:0px;
+   padding:10px 0px 10px 0px;
+}
+
+
+#peoples-container hr{
+   border:none;
+   border-bottom:1px dotted #666666;
+   float:left;
+   width:100%;
+}
+
+
+#peoples-container .photo-container{
+   background:url(../images/bg-people.png) no-repeat 0px 0px;
+   height:115px;
+   width:115px;
+   float:left;
+   margin:0px;
+   padding:17px 18px 18px 18px;
+}
+
+
+#peoples-container .photo-details{
+   width:550px;
+   float:right;
+   margin:0px;
+   padding:10px;
+}
+
+
+
+#peoples-container .photo-details h2{
+   padding:0;
+   margin:0px 0px 5px 0px;
+   font-size:20px;
+   color:#25a9dc;
+   font-weight:normal;
+}
+
+#peoples-container .photo-details h3{
+   padding:0;
+   margin:0px 0px 5px 0px;
+   font-size:14px;
+   color:#333333;
+   font-weight:normal;
+}
+
+#peoples-container .photo-details p{
+   padding:0;
+}
+
+
+
+
+
+
+
+#page-template #biz-concept-container{
+   width:730px;
+   float:left;
+   margin:0px;
+   padding:0px;
+}
+
+
+#page-template #biz-concept-container .biz-concept-row{
+   background:url(../images/bg-biz-concept-row.jpg) no-repeat 0px 0px;
+   width:690px;
+   float:left;
+   margin:0px 0px 20px 0px;
+   padding:20px;
+}
+
+
+#page-template #biz-concept-container .biz-concept-thumb{
+   width:250px;
+   float:left;
+   margin:0px 20px 0px 0px;
+   padding:20px;
+}
+
+
+#page-template #biz-concept-container .biz-concept-thumb-alt{
+   float:right;
+}
+
+/*
+#page-template #biz-concept-container .biz-concept-thumb img{
+   background:#FFFFFF;
+   border:5px solid #FFFFFF;
+   -moz-box-shadow:0px 0px 5px #999999;
+   vertical-align:middle;
+   width:250px;
+}
+*/
+/*added by Fermin 06/01/12 START*/
+.biz-concept-thumb .benefits-sprite{
+   background:url(../images/biz-benefits-sprite.png) no-repeat;
+   box-shadow:5px 5px 5px #999999;
+   vertical-align:middle;
+}
+.biz-concept-thumb .benefits-sprite-ws{
+	background-position:0px 0px;
+	width:260px;
+	height: 260px;
+}
+.biz-concept-thumb .benefits-sprite-fb{
+	background-position:0px -270px;
+	width:246px;
+	height: 286px;
+}
+.biz-concept-thumb .benefits-sprite-tw{
+	background-position:0px -562px;
+	width:251px;
+	height: 150px;		
+	border-radius:19px;
+}
+
+.biz-concept-thumb .benefits-sprite-disp{
+	background-position:0px -724px;
+	width:235px;
+	height: 218px;
+	border-radius:13px 13px 0px 0px;
+}
+.biz-concept-thumb .benefits-sprite-discov{
+	background-position:-2px -953px;
+	width:308px;
+	height: 176px;
+}
+.discover-alt{
+	margin:0px -34px 0px 0px;
+}
+/*added by Fermin END*/
+
+
+#page-template #biz-concept-container .biz-concept-content{
+   width:330px;
+   float:right;
+   /* margin:0px 0px 0px 0px; */
+   padding:20px;
+   font-size:14px;
+   font-family:Arial, Helvetica, sans-serif;
+}
+
+#page-template #biz-concept-container .biz-concept-content-alt{
+   float:left;
+}
+
+
+
+

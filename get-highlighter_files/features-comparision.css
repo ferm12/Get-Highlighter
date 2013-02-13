@@ -1,0 +1,181 @@
+/* added by Fermin for feature comparision table BEGIN */
+#inner_table{
+   width:730px;
+   height:380px;
+   margin:70px 15px 0px 0px;
+   background-color:white;
+   border-radius:10px;
+   font-size:14px;
+   font-family:Sans-serif;
+}
+#inner_table .features_cl{
+   border-radius: 10px 0px 0px 10px;
+   border-right:2px solid white;
+   width:240px;
+   height:370px;
+   float:left;
+}
+.features_cl #features_title{
+   color:white;
+   height:39px;
+   font-weight:bold;
+   margin:0px;
+   background:url('../images/strip.1.png') repeat-x 0 0;
+   border-top-left-radius:10px;
+   text-align:center;
+   line-height:51px;
+}
+.features_cl .ft_{
+   height:26px;
+   margin:0px;
+   border-left: solid 2px #e2f5fc;
+}
+.features_cl .ft_txt{
+   margin:0px;
+   padding:0px 0px 0px 4px;
+}
+.bkg_blue{
+   background-color: #e2f5fc;
+}
+.bkg_orange{
+   background-color:#fdf3f2;
+}
+#inner_table .table_price{
+   margin-right: 42px;
+   padding-top:6px;
+
+}
+.blogger_cl, .publisher_cl, .enterprice_cl, .strat_part_cl {
+   height:360px;
+   float:left;
+}
+.blogger_title{
+   background:url('../images/strip.1.png');
+}
+.publisher_title{
+   background:url('../images/silver_strong.png');
+}
+.enterprise_title{
+   background:url('../images/gold_strong.png');
+   border-radius:10px 10px 0px 0px;
+   height:60px;
+}
+.strat_part_title{
+   background:url('../images/strip.1.png') 0 0 repeat-x;
+   border-radius:0px 10px 0px 0px;
+}
+.blogger_title, .publisher_title, .enterprise_title, .strat_part_title{
+   color:white;
+   line-height:51px;
+   font-weight:bold;
+   text-align:center;
+}
+#inner_table .enterprice_cl{
+   border:2px solid white;
+   box-shadow:0px -5px 10px 0px #888888;
+   margin-top:-23px;
+   border-radius:10px 10px 0px 0px;
+   position:relative;
+}
+.publi_strat{
+   width:154px;
+   height:39px;
+   margin:0px;
+}
+#inner_table .col1{
+   height:26px;
+   margin:0px;
+   text-align:right;
+}
+#inner_table .table_txt, #inner_table img{
+   padding:6px 9px 0px 0px;
+   margin:0px;
+   vertical-align: baseline;  
+}
+.strat_part_cl .discuss{
+   height:114px;
+   font-size:16px;
+   padding: 120px 0px 0px 26px;
+}
+.border_right{
+   border-right: 2px solid #e2f5fc;
+}
+.bkg_silver{
+background:url('../images/silver.png');
+}
+.bkg_gold{
+background:url('../images/gold.png');
+}
+.silver-bg {
+background:url(../images/silver_bg.png); 
+}
+.gold-bg {
+background:url(../images/gold_bg.png);
+}
+.silver-gold-bg {
+background:url(../images/silver_gold_bg.png);
+} 
+
+
+a.blue-btn-small, a.silver-btn-small, a.gold-btn-small{
+   color:#333333;
+   height:14px;
+   padding:3px 8px 8px 10px;
+   margin:20px 0px 0px 33px;
+   font-size:12px;
+   text-decoration:none;
+   display:inline-block;
+   border: 2px solid white; 
+   -moz-border-radius:5px;
+   -webkit-border-radius:5px;
+   -moz-box-shadow: 0px 0px 3px #333333;
+   -webkit-box-shadow: 0px 0px 3px #333333;
+}
+
+
+/*
+a.white-btn-small, a.red-btn-small{
+   color:#333333;
+   height:14px;
+   padding:3px 8px 8px 10px;
+   margin:20px 0px 0px 33px;
+   font-size:12px;
+   text-decoration:none;
+   display:inline-block;
+   border: 2px solid white; 
+   -moz-border-radius:5px;
+   -webkit-border-radius:5px;
+   -moz-box-shadow: 0px 0px 3px #333333;
+   -webkit-box-shadow: 0px 0px 3px #333333;
+}
+a.red-btn-small{
+   color:#FFFFFF;
+   background:url(../images/redbtnbg.jpg) repeat-x 0px 0px;
+}
+
+a.white-btn-small:hover{
+   text-decoration:underline;
+}
+a.red-btn-small:hover {
+   background:url(../images/redbtnbg.jpg) repeat-x 0px -32px;
+}
+*/
+
+
+a.blue-btn-small{
+   background:url(../images/strip.1.png); 
+} 
+a.silver-btn-small{
+	background:url('../images/silver_strong.png') repeat-y 0px 0px;
+}
+a.gold-btn-small{
+	background:url('../images/gold_strong.png') repeat-y -81px 0px;
+}
+a.blue-btn-small:hover, a.silver-btn-small:hover, a.gold-btn-small:hover {
+   background:url(../images/redbtnbg.jpg) repeat-x 0px 0px;/* -32 for black*/
+	color:white;
+
+}
+
+/* added by Fermin for feature comparision table END */
+
